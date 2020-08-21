@@ -6,7 +6,7 @@ public class CarMovingConditionByRandom implements CarMovingCondition {
 
     private static final int MOVE_POSITION = 4;
 
-    public int getPower() {
+    private int getPower() {
         Random random = new Random();
         return random.nextInt(10);
     }
